@@ -4,7 +4,6 @@
 
 body {
   font-family: "Kalam", Georgia, "Times New Roman", Times, serif;
-  color: #555;
   background-image: url("../parchment_1.jpg");
 }
 
@@ -163,4 +162,28 @@ h6, .h6 {
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+
+div.lang-pair {
+    margin-bottom: 1em;
+    border-bottom: 1px dashed #999;
+}
+
+div.lang-pair .date {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: right;
+    font-size: 0.7em;
+}
+
+div.lang-pair .date a {
+  color: #888;
+}
+
+div.lang-pair .lang-eng {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #555;
+}
+
+div.lang-pair .lang-mai {
+  color: #222;
 }
