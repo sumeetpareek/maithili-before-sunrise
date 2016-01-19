@@ -4,7 +4,14 @@
 
 body {
   font-family: "Kalam", Georgia, "Times New Roman", Times, serif;
-  background-image: url("../parchment_1.jpg");
+}
+
+body.main-page {
+ background-image: url("../parchment_1.jpg"); 
+}
+
+body.homework-page {
+
 }
 
 h1, .h1,
@@ -184,6 +191,18 @@ div.lang-pair .lang-eng {
     color: #555;
 }
 
-div.lang-pair .lang-mai {
-  color: #222;
+body.main-page div.lang-pair .lang-mai {
+  color: red;
+}
+
+body.homework-page div.lang-pair .lang-mai {
+  color: maroon;
+}
+
+body.main-page div.lang-pair .lang-hin {
+  color: green;
+}
+
+body.homework-page div.lang-pair .lang-hin {
+  color: red;
 }
