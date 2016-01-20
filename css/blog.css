@@ -172,8 +172,19 @@ h6, .h6 {
 }
 
 div.lang-pair {
-    margin-bottom: 1em;
+    margin: 0em;
+    padding: 0.5em;
     border-bottom: 1px dashed #999;
+}
+
+div.bg-danger {
+  background: #f2dede;
+}
+div.bg-warning {
+  background: #fcf8e3;
+}
+div.bg-success {
+  background: #dff0d8;
 }
 
 div.lang-pair .date {
@@ -196,7 +207,7 @@ body.main-page div.lang-pair .lang-mai {
 }
 
 body.homework-page div.lang-pair .lang-mai {
-  color: maroon;
+  color: red;
 }
 
 body.main-page div.lang-pair .lang-hin {
@@ -204,5 +215,5 @@ body.main-page div.lang-pair .lang-hin {
 }
 
 body.homework-page div.lang-pair .lang-hin {
-  color: red;
+  color: maroon;
 }
