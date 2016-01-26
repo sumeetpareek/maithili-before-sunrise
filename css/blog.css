@@ -217,3 +217,9 @@ body.main-page div.lang-pair .lang-hin {
 body.homework-page div.lang-pair .lang-hin {
   color: maroon;
 }
+
+@media print {
+  body, .blog-main {
+    font-size: 1em !important;  
+  }
+}
